@@ -9,10 +9,10 @@ repositories {
     mavenCentral()
     // for GraMi
     maven { url "https://repo.grakn.ai/repository/maven/" }
-    maven { url "https://jitpack.io" }
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
     //GraMi
-    implementation 'com.github.bayer-science-for-a-better-life:grami:0.0.1'
+    implementation 'com.github.bayer-science-for-a-better-life:grami:0.1.0-alpha-9'
 }
